@@ -1,0 +1,73 @@
+body {
+    background-image: url('./Pictures/marblebg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Navbar-wrapper {
+
+}
+
+/* ------------------------------ Home ------------------------------ */
+.Home-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.home-text {
+    font-family: "Poppins Regular";
+}
+.emily-chow {
+    color: red;
+    font-family: "Poppins Bold";
+}
+
+.social-icons i {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.profile-pic img {
+    width: 200px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.primary-btn:hover {
+    color: aliceblue;
+    border: 2px solid #ff5823;
+    background-color: #808080;
+  }
+  
+  .highlighted-btn {
+    color: var(--white);
+  
+    font-size: 12px;
+    background-color: #ff5823;
+  }
+/* ------------------------------ Footer ------------------------------ */
+.Footer-wrapper {
+    font-family: "Poppins Regular";
+    padding: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30vh;
+    color: white;
+    text-align: center;
+    background-image: url('./Pictures/footerbg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------------------------ Misc ------------------------------ */
