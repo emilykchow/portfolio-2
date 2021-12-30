@@ -28,7 +28,6 @@ console.log(webData.id);
     }
   };
 
-
   const CustomRightArrow = ({ onClick, ...rest }) => {
     const {
       onMove,
@@ -41,11 +40,18 @@ console.log(webData.id);
 
   return (
     <div className="Websites-wrapper">
+      <h4 className="font-type page-title">My Work</h4>
+      <br />
+      <div className="font-type">
+      {/* <h1>Websites/Web Apps</h1> */}
+      </div>
       <Carousel className="carousel-wrapper" responsive={responsive} customRightArrow={<CustomRightArrow />} centerMode={true} focusOnSelect={true} >
 
         <div>
-          item 1
-          <img src="https://www.postermywall.com/index.php/posterbuilder/copy/f821d8d32c326294133fee5caa3781cb"/>
+          <h5 className="carousel-item-title font-type">PHP, WordPress, CSS, HTML</h5>
+          <a href="www.emilykchow.com" target="_blank">
+          <img src="https://i.ibb.co/sPxFKpb/Screen-Shot-2021-12-29-at-7-09-52-PM.png"/>
+          </a>
 
         </div>
 
@@ -67,7 +73,9 @@ console.log(webData.id);
           <img src="https://ibb.co/c1xZLTL" />
           </div>
 
-        <div>item 5</div>
+        <div>item 5
+        <img src="https://ibb.co/c1xZLTL" />
+        </div>
 
       </Carousel>
 

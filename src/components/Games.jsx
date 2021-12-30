@@ -4,7 +4,7 @@ import '../App.css';
 function Games() {
   return (
     <div className="Games-wrapper">
-      Games
+      
     </div>
   );
 }

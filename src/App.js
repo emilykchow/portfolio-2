@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Navb />
       <Home />
-      <About />
       <Websites 
       
         // key={webData.id}
@@ -27,6 +26,7 @@ function App() {
 
         />
       <Games />
+      <About />
       <Footer />
     </div>
   );
