@@ -80,10 +80,14 @@ body {
 }
 
 .carousel-wrapper {
-    background-color: #DCDCDC;
+    /* background-color: #DCDCDC; */
     
-    height: 50%;
+    height: 70%;
     width: 90%;
+}
+
+.carousel-wrapper div {
+ /* padding: 0px 10px; */
 }
 
 .page-title {
@@ -96,15 +100,21 @@ body {
 
 img {
     border: black 1px solid;
-    width: 333px;
-    height: 200px;
+    width: 80%;
+    height: 180px;
     margin: 20px;
+    box-shadow: 5px 10px #888888;
+    border-radius: 25px;
 }
 
 .carousel-item-title {
     margin-top: 10px;
 
 
+}
+
+.carousel-wrapper img {
+    cursor: pointer;
 }
 
 
@@ -146,12 +156,12 @@ img {
 /* ------------------------------ Footer ------------------------------ */
 .Footer-wrapper {
     /* font-family: "Poppins Regular"; */
-    padding: 45px;
+    padding: 90px;
     /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     color: white;
     text-align: center;
     background-image: url('./Pictures/footerbg.jpeg');

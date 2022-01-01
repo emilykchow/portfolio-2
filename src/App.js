@@ -6,7 +6,6 @@ import Websites from "./components/Websites";
 import Games from "./components/Games";
 import Footer from "./components/Footer";
 
-import webData from "./components/webData";
 
 import './App.css';
 
@@ -15,16 +14,7 @@ function App() {
     <div className="App">
       <Navb />
       <Home />
-      <Websites 
-      
-        // key={webData.id}
-        // image={webData.image}
-        // content={webData.content}
-        // technologyUsed={webData.technologyUsed} 
-
-
-
-        />
+      <Websites />
       <Games />
       <About />
       <Footer />

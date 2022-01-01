@@ -2,11 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import '../App.css';
-import webData from "./webData";
 import "../Pictures/profilepic1.jpg";
 
 function Websites() {
-console.log(webData.id);
 
   const responsive = {
     superLargeDesktop: {
@@ -42,40 +40,50 @@ console.log(webData.id);
     <div className="Websites-wrapper">
       <h4 className="font-type page-title">My Work</h4>
       <br />
-      <div className="font-type">
-      {/* <h1>Websites/Web Apps</h1> */}
-      </div>
-      <Carousel className="carousel-wrapper" responsive={responsive} customRightArrow={<CustomRightArrow />} centerMode={true} focusOnSelect={true} >
+      <Carousel className="carousel-wrapper" showDots={true} responsive={responsive} customRightArrow={<CustomRightArrow />} centerMode={true} focusOnSelect={true} >
 
         <div>
-          <h5 className="carousel-item-title font-type">PHP, WordPress, CSS, HTML</h5>
-          <a href="www.emilykchow.com" target="_blank">
+          <h5 className="carousel-item-title font-type">Portfolio Website</h5>
+          <a href="https://emilykchow.com" target="_blank">
           <img src="https://i.ibb.co/sPxFKpb/Screen-Shot-2021-12-29-at-7-09-52-PM.png"/>
           </a>
-
+          <p>PHP, WordPress, CSS, HTML</p>
         </div>
-
 
         <div>
-          item 2
-          <img src="https://static.wikia.nocookie.net/runescape2/images/5/56/Frog_%28NPC%29.png/revision/latest?cb=20160531202106" />
+          <h5 className="carousel-item-title font-type">Quiz App</h5>
+          <a href="https://emilykchow.github.io/react-quiz/" target="_blank">
+          <img src="https://i.ibb.co/gFHjjdh/Screen-Shot-2022-01-01-at-5-39-55-PM.png"/>
+          </a>
+          <p>React, CSS, HTML</p>
+        </div>
+
+        <div>
+          <h5 className="carousel-item-title font-type">Black Jack Game</h5>
+          <a href="https://emilykchow.github.io/blackjack/" target="_blank">
+          <img src="https://i.ibb.co/JnKX4Sj/Screen-Shot-2022-01-01-at-5-46-08-PM.png"/>
+          </a>
+          <p>React, CSS, HTML</p>
+        </div>
+
+        <div>
+          <h5 className="carousel-item-title font-type">News Articles App</h5>
+          <a href="https://angry-lichterman-6a55f2.netlify.app/" target="_blank">
+          <img src="https://i.ibb.co/5hgY1Z4/Screen-Shot-2022-01-01-at-5-48-06-PM.png"/>
+          </a>
+          <p>React, CSS, HTML</p>
+        </div>
+
+        <div>
+          <h5 className="carousel-item-title font-type">Finance Splitting Web</h5>
+          <a href="https://iou2.herokuapp.com/about/" target="_blank">
+          <img src="https://i.ibb.co/rmpkzQV/Screen-Shot-2022-01-01-at-5-51-50-PM.png"/>
+          </a>
+          <p>Python, CSS, HTML</p>
         </div>
 
 
-          
-        <div>item 3
-        <img src="../Pictures/profilepic1.jpg"
-          alt="Profile Picture"
-        />
-        </div>
-
-        <div>item 4
-          <img src="https://ibb.co/c1xZLTL" />
-          </div>
-
-        <div>item 5
-        <img src="https://ibb.co/c1xZLTL" />
-        </div>
+        
 
       </Carousel>
 
