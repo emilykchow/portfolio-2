@@ -4,8 +4,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import PortfolioImg from "./components/PortfolioImg";
 import Websites from "./components/Websites";
-import Games from "./components/Games";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
+import Main from "./components/main";
 
 
 import './App.css';
@@ -14,11 +16,12 @@ function App() {
   return (
     <div className="App">
       <Navb />
+      <main />
       <Home />
       <About />
       <PortfolioImg />
       <Websites />
-      <Games />
+      <Contact />
       <Footer />
     </div>
   );
