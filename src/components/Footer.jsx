@@ -6,6 +6,7 @@ function Footer() {
   return (
     <div className="Footer-wrapper font-type">
       <h5>Living, learning, and leveling up one day at a time.</h5>
+      <p>Technologies used to build this portfolio website: React, CSS, HTML, Bootstrap</p>
       <p>Copyright ⓒ {year} Emily Chow</p>
 
         <div className="social-icons">
