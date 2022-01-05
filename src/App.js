@@ -16,9 +16,8 @@ function App() {
   return (
     <div className="App">
       <Navb />
-      <main />
       <Home />
-      <element><About id="section2"/></element>
+      <About id="section2"/>
       
       <PortfolioImg />
       <Websites />
