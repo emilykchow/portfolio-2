@@ -3,6 +3,10 @@ import Typical from "react-typical";
 import "../App.css";
 import "../Pictures/profilepic1.jpg";
 
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+
+
 function Home() {
   return (
     <div className="Home-wrapper">
@@ -36,10 +40,11 @@ function Home() {
       </div>
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/chowemilyk/" target="_blank">
-          <i className="fa fa-linkedin-square fa-lg"></i>
+          <i className="fa fa-linkedin-square fa-2x"></i>
         </a>
         <a href="https://github.com/emilykchow" target="_blank">
-          <i className="fa fa-github-square fa-lg"></i>
+          <i className="fa fa-github-square fa-2x"></i>
+          {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         </a>
       </div>
       </div>

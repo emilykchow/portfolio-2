@@ -1,10 +1,10 @@
 import React, {useRef} from "react";
 import '../App.css';
-// import emailjs from "emailjs-com";
-import emailjs from '@emailjs/browser';
+import emailjs from "emailjs-com";
+// import emailjs from '@emailjs/browser';
 
 function Contact(e) {
-  // e.preventDefault();
+
 
   const form = useRef();
 
@@ -16,6 +16,8 @@ function Contact(e) {
       }, (error) => {
           console.log(error.text);
       });
+      e.preventDefault();
+      alert("Email Sent!")
       e.target.reset();
    };
    
@@ -29,7 +31,7 @@ function Contact(e) {
 
 
           <input type="text" id="contact-name" name="name" placeholder="Name"/>
-
+          <input type="text" id="contact-email" name="email" placeholder="Email"/>
 
           <input type="text" id="contact-subject" name="subject" placeholder="Subject"/>
 

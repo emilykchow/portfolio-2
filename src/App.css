@@ -1,6 +1,9 @@
 /* ------------------------------ Navbar ------------------------------ */
 .Navbar-wrapper {
   background-image: url('./Pictures/footerbg.jpeg');
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 /* ------------------------------ Home ------------------------------ */
@@ -12,7 +15,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 
 
@@ -26,6 +29,10 @@
 .social-icons .fa {
     text-align: center;
     margin: 10px 10px;
+    color: black;
+}
+.social-icons .fa:hover {
+  color: blue;
 }
 
 .profile-pic {
@@ -233,9 +240,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3%;
-  height: 90vh;
-  
-  
+  height: 100%;
 }
 
 .Contact-wrapper h1{
@@ -249,14 +254,14 @@
 }
 
 form input {
-  width: 90%;
+  width: 70%;
   height: 30px;;
   margin-bottom: 10px;
 
   
 }
 form textarea {
-  width: 90%; 
+  width: 70%; 
   height: 20vh;
   display: block;
   margin: auto;
@@ -274,7 +279,10 @@ form textarea {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-  margin-top: 15px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  align-items: center;
 }
 
 .contact-button:hover {background-color: #3e8e41}

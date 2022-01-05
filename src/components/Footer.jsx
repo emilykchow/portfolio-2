@@ -11,10 +11,10 @@ function Footer() {
 
         <div className="social-icons">
           <a href="https://www.linkedin.com/in/chowemilyk/" target="_blank">
-            <i className="fa fa-linkedin-square fa-lg"></i>
+            <i className="fa fa-linkedin-square fa-2x"></i>
           </a>
           <a href="https://github.com/emilykchow" target="_blank">
-            <i className="fa fa-github-square fa-lg"></i>
+            <i className="fa fa-github-square fa-2x"></i>
           </a>
         </div>
     </div>

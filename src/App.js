@@ -18,7 +18,8 @@ function App() {
       <Navb />
       <main />
       <Home />
-      <About />
+      <element><About id="section2"/></element>
+      
       <PortfolioImg />
       <Websites />
       <Contact />
