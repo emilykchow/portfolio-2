@@ -15,30 +15,27 @@ import NavBar, { ElementsWrapper } from 'react-scrolling-nav';
 
 
 function Navb() {
-  return (
-    
-<div className="Navbar-wrapper">
-
-
-<Navbar bg="dark" variant="dark">
-    <Container>
-    <Navbar.Brand href="#home">Home</Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#about">
-      <Link
-          activeClass="active"
-          className="test1"
-          to="section2"
-          spy={true}
-          smooth={true}
-          duration={500}
-          offset={50}
-        />About</Nav.Link>
-      <Nav.Link href="#features">My Work</Nav.Link>
-      <Nav.Link href="#pricing">Contact</Nav.Link>
-    </Nav>
-    </Container>
-  </Navbar>
+  return (    
+    <div className="Navbar-wrapper">
+    <Navbar bg="dark" variant="dark">
+        <Container>
+        <Navbar.Brand href="#home">Home</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="#about">
+          <Link
+              activeClass="active"
+              className="test1"
+              to="section2"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={50}
+            />About</Nav.Link>
+          <Nav.Link href="#features">My Work</Nav.Link>
+          <Nav.Link href="#pricing">Contact</Nav.Link>
+        </Nav>
+        </Container>
+      </Navbar>
 
 {/* 
 <ul className="nav navbar-nav">
