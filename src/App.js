@@ -7,7 +7,6 @@ import Websites from "./components/Websites";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import Main from "./components/main";
 
 
 import './App.css';
@@ -17,8 +16,7 @@ function App() {
     <div className="App">
       <Navb />
       <Home />
-      <About id="section2"/>
-      
+      <About />
       <PortfolioImg />
       <Websites />
       <Contact />

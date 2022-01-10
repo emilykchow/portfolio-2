@@ -9,7 +9,7 @@ import "../Pictures/profilepic1.jpg";
 
 function Home() {
   return (
-    <div className="Home-wrapper">
+    <div className="Home-wrapper section1">
       <div className="home-left">
 
       <div className="home-text font-type">
@@ -35,9 +35,9 @@ function Home() {
         {/* A reliable and detailed-oriented individual looking to work as software engineer. Offering expertise in Javascript, HTML, CSS and core web design. Graduate from General Assembly. */}</h4>
         <button className="btn primary-btn">
           Contact Me
-        </button>
-        
+        </button>  
       </div>
+      
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/chowemilyk/" target="_blank">
           <i className="fa fa-linkedin-square fa-2x"></i>
