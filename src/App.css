@@ -16,6 +16,10 @@
   font-weight: bold;
 } 
 
+.nav-item-text:hover {
+  color: #3399ff;
+} 
+
 /* ------------------------------ Home ------------------------------ */
 .Home-wrapper {
     background-image: url('./Pictures/marblebg2.jpeg') !important;
@@ -74,7 +78,8 @@
 
 .primary-btn:hover {
     border: 2px solid black;
-    background-color: #DCDCDC;
+    background-color: #3399ff;
+    font-weight: bold;
 }
   
 
