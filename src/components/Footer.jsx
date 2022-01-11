@@ -10,16 +10,15 @@ function Footer() {
           <h5>Living, learning, and leveling up one day at a time.</h5>
           <p>Technologies used to build this portfolio website: React, CSS, HTML, Bootstrap</p>
           <p>Copyright ⓒ {year} Emily Chow</p>
+
+          <a href="https://www.linkedin.com/in/chowemilyk/" target="_blank">
+            <i className="fa fa-linkedin-square fa-2x" ></i>
+          </a>
+          <a href="https://github.com/emilykchow" target="_blank">
+            <i className="fa fa-github-square fa-2x"></i>
+          </a>
         </div>
 
-          <div className="footer-icons social-icons">
-            <a href="https://www.linkedin.com/in/chowemilyk/" target="_blank">
-              <i className="fa fa-linkedin-square fa-2x" ></i>
-            </a>
-            <a href="https://github.com/emilykchow" target="_blank">
-              <i className="fa fa-github-square fa-2x"></i>
-            </a>
-          </div>
         </div>
     </div>
   );

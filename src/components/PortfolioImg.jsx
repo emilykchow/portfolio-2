@@ -1,10 +1,13 @@
 import React from "react";
 import '../App.css';
 
-function PortfolioImg() {
+function PortfolioImg({aos}) {
   return (
-    <div className="Portfolio-Img-wrapper section3">
-      <h1 className="portfolop-img-text font-type fade-in-text">Portfolio</h1>
+    <div className="Portfolio-Img-wrapper section3" >
+      <h1 className="portfolop-img-text font-type" 
+      data-aos="fade-up"
+      data-aos-delay="50"
+      data-aos-duration="1000">Portfolio</h1>
     </div>
   );
 }
