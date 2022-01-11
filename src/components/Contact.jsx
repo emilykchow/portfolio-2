@@ -27,13 +27,19 @@ function Contact(e) {
       <div className="contact-bg-wrapper">
         <div className="contact-content">
           <h1 className="contact-h1 font-type fade-in-text">Contact Me</h1>
-            <form ref={form} onSubmit={ sendEmail }>
-              <input type="text" id="contact-name" name="name" placeholder="Name" required/>
-              <input type="text" id="contact-email" name="email" placeholder="Email" required/>
-              <input type="text" id="contact-subject" name="subject" placeholder="Subject" required/>
-              <textarea id="contact-message" name="message_html" placeholder="Write something.." required></textarea>
-              <button type="submit" value="Submit" className="contact-button">Send</button>
-            </form> 
+            <div className="form-container">
+              <form ref={form} onSubmit={ sendEmail }>
+                <div className="input-container">
+                <input type="text" id="contact-name" name="name" placeholder="Name" required/>
+                <input type="text" id="contact-email" name="email" placeholder="Email" required/>
+                <input type="text" id="contact-subject" name="subject" placeholder="Subject" required/>
+                </div>
+                
+                <textarea id="contact-message" name="message_html" placeholder="Write something.." required></textarea>
+                <button type="submit" value="Submit" className="contact-button">Send</button>
+              </form> 
+            </div>
+            
           </div>
         </div>
     </div>

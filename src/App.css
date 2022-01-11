@@ -243,7 +243,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .contact-bg-wrapper{
@@ -255,51 +255,79 @@
   margin: auto;
   box-shadow: 10px 10px 10px #888888;
   border-radius: 25px;
-  margin: auto;
   padding: 10px;
-  position: relative;
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  /* position: relative; */
+  /* display: flex; */
+  /* text-align: center; */
+  /* justify-content: center; */
 }
 
 .Contact-wrapper h1{
   display: block;
-  padding: 8%;
+  padding-top: 5%;
+  padding-bottom: 2%;
   /* display: flex;
   align-items: center;
   text-align: center;
   justify-content: center; */
   font-size: 5vh;
   color: white !important;
+  width: 70%;
+  position: absolute;
+  top: 0;
 }
 
-.contact-content {
+.form-container {
+  width: 100%;
+  height: 100%;
   position: absolute;
 }
 
+.input-container {
+  margin-top: 90px;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-content {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+}
+
+
 form input {
+  /* display: block; */
   width: 70%;
-  height: 30px;;
+  height: 40px;
   margin-bottom: 10px;
   color: white;
   /* position: absolute; */
-
+  /* top: 30px; */
+  
 }
 
 form textarea {
   width: 70%; 
-  height: 20vh;
+  height: 15vh;
   display: block;
   margin: auto;
   color: white;
-  /* position: absolute; */
-  
-  bottom: 200px;
+  position: absolute;
+  bottom: 25%;
+  left: 15%;
 }
 
 .contact-button {
   padding: 3% 10%;
+  width: 40%;
   font-size: 20px;
   cursor: pointer;
   text-align: center;
@@ -310,8 +338,12 @@ form textarea {
   border: none;
   border-radius: 15px;
   margin-top: 25px;
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  left: 30%
 
-  /* position: absolute; */
+  /* bottom: 10px; */
   /* display: flex; */
   /* flex-direction: row;
   justify-content: center;
@@ -328,7 +360,7 @@ form textarea {
 .contact-button:hover {background-color: #3399ff}
 
 .contact-button:active {
-  background-color: #3e8e41;
+  background-color: #3399ff;
   transform: translateY(4px);
 }
 
