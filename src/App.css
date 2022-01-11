@@ -265,7 +265,7 @@
 
 .Contact-wrapper h1{
   display: block;
-  padding: 4%;
+  padding: 8%;
   /* display: flex;
   align-items: center;
   text-align: center;
@@ -309,7 +309,7 @@ form textarea {
   background-color: #c5ecfd;
   border: none;
   border-radius: 15px;
-  margin-top: 5px;
+  margin-top: 25px;
 
   /* position: absolute; */
   /* display: flex; */
