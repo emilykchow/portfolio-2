@@ -2,9 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import "../App.css";
 import "../Pictures/profilepic1.jpg";
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 function Home() {
@@ -34,7 +32,15 @@ function Home() {
         <h4> Knack of building web applications with front and back end operations.
         {/* A reliable and detailed-oriented individual looking to work as software engineer. Offering expertise in Javascript, HTML, CSS and core web design. Graduate from General Assembly. */}</h4>
         <button className="btn primary-btn">
-          Contact Me
+          <Link
+              activeClass="active"
+              className="nav-item-text"
+              to="section4"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
+            >Contact Me</Link>
         </button>  
       </div>
       

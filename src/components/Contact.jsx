@@ -25,15 +25,17 @@ function Contact(e) {
   return (
     <div className="Contact-wrapper section4">
       <div className="contact-bg-wrapper">
-      <h1 className="contact-h1 font-type fade-in-text">Contact Me</h1>
-        <form ref={form} onSubmit={ sendEmail }>
-          <input type="text" id="contact-name" name="name" placeholder="Name"/>
-          <input type="text" id="contact-email" name="email" placeholder="Email"/>
-          <input type="text" id="contact-subject" name="subject" placeholder="Subject"/>
-          <textarea id="contact-message" name="message_html" placeholder="Write something.." ></textarea>
-          <button type="submit" value="Submit" className="contact-button">Send</button>
-        </form> 
-      </div>
+        <div className="contact-content">
+          <h1 className="contact-h1 font-type fade-in-text">Contact Me</h1>
+            <form ref={form} onSubmit={ sendEmail }>
+              <input type="text" id="contact-name" name="name" placeholder="Name"/>
+              <input type="text" id="contact-email" name="email" placeholder="Email"/>
+              <input type="text" id="contact-subject" name="subject" placeholder="Subject"/>
+              <textarea id="contact-message" name="message_html" placeholder="Write something.."></textarea>
+              <button type="submit" value="Submit" className="contact-button">Send</button>
+            </form> 
+          </div>
+        </div>
     </div>
   );
 }
