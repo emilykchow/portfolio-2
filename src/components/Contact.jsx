@@ -30,9 +30,9 @@ function Contact(e) {
             <div className="form-container">
               <form ref={form} onSubmit={ sendEmail }>
                 <div className="input-container">
-                <input type="text" id="contact-name" name="name" placeholder="Name" required/>
-                <input type="text" id="contact-email" name="email" placeholder="Email" required/>
-                <input type="text" id="contact-subject" name="subject" placeholder="Subject" required/>
+                  <input type="text" id="contact-name" name="name" placeholder="Name" required/>
+                  <input type="text" id="contact-email" name="email" placeholder="Email" required/>
+                  <input type="text" id="contact-subject" name="subject" placeholder="Subject" required/>
                 </div>
                 
                 <textarea id="contact-message" name="message_html" placeholder="Write something.." required></textarea>
