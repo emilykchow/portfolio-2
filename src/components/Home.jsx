@@ -50,7 +50,6 @@ function Home() {
         </a>
         <a href="https://github.com/emilykchow" target="_blank">
           <i className="fa fa-github-square fa-2x"></i>
-          {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         </a>
       </div>
       </div>

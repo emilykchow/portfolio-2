@@ -59,6 +59,17 @@ function Websites() {
           <h5 className="carousel-item-title font-type"
           data-aos="zoom-in"
           data-aos-delay="50"
+          data-aos-duration="1000">Concert Landing Page</h5>
+          <a href="https://concert-landing-page.herokuapp.com/" target="_blank">
+          <img className="portfolio-item" src="https://i.ibb.co/rmpkzQV/Screen-Shot-2022-01-01-at-5-51-50-PM.png"/>
+          </a>
+          <p>React, CSS, HTML</p>
+        </div>
+
+        <div>
+          <h5 className="carousel-item-title font-type"
+          data-aos="zoom-in"
+          data-aos-delay="50"
           data-aos-duration="1000">Quiz App</h5>
           <a href="https://emilykchow.github.io/react-quiz/" target="_blank">
           <img className="portfolio-item" src="https://i.ibb.co/gFHjjdh/Screen-Shot-2022-01-01-at-5-39-55-PM.png"/>
