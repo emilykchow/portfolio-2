@@ -61,7 +61,7 @@ function Websites() {
           data-aos-delay="50"
           data-aos-duration="1000">Concert Landing Page</h5>
           <a href="https://concert-landing-page.herokuapp.com/" target="_blank">
-          <img className="portfolio-item" src="https://i.ibb.co/rmpkzQV/Screen-Shot-2022-01-01-at-5-51-50-PM.png"/>
+          <img className="portfolio-item" src="https://i.ibb.co/hXhYYgP/Screen-Shot-2022-01-17-at-5-31-17-PM.png"/>
           </a>
           <p>React, CSS, HTML</p>
         </div>
