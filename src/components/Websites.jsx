@@ -85,7 +85,7 @@ function Websites() {
           <a href="https://emilykchow.github.io/blackjack/" target="_blank">
           <img className="portfolio-item" src="https://i.ibb.co/JnKX4Sj/Screen-Shot-2022-01-01-at-5-46-08-PM.png"/>
           </a>
-          <p>React, CSS, HTML</p>
+          <p>Javascript, CSS, HTML</p>
         </div>
 
         <div>

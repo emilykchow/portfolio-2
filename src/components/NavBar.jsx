@@ -52,7 +52,7 @@ function Navb() {
               smooth={true}
               duration={500}
               offset={-60}
-            >My Work</Link></Nav.Link>
+            >Portfolio</Link></Nav.Link>
           <Nav.Link href="#pricing">
           <Link
               activeClass="active"
