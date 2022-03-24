@@ -44,6 +44,17 @@ function Websites() {
       <br />
       <Carousel className="carousel-wrapper" showDots={true} responsive={responsive} customRightArrow={<CustomRightArrow />} centerMode={true} focusOnSelect={true} >
 
+      <div>
+          <h5 className="carousel-item-title font-type" 
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000">Grocery List</h5>
+          <a href="https://grocery-list-web.netlify.app/" target="_blank">
+          <img className="portfolio-item" src="https://i.ibb.co/P6WvBX9/Screen-Shot-2022-03-24-at-2-29-48-PM.png"/>
+          </a>
+          <p>React, Redux, Typescript, Node JS, MongoDB, CSS</p>
+        </div>
+
         <div>
           <h5 className="carousel-item-title font-type" 
           data-aos="zoom-in"
@@ -121,15 +132,3 @@ function Websites() {
 }
 
 export default Websites;
-
-
-
-// { webData.Map(data, key) => (
-//   <div key={data.id}>
-//     <img src={data.image}/>
-//     <h3>{data.technologyUsed}</h3>
-//     <p>{data.content}</p>
-
-//   <div/>
-//   )
-// }
