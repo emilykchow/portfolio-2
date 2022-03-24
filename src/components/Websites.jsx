@@ -44,7 +44,7 @@ function Websites() {
       <br />
       <Carousel className="carousel-wrapper" showDots={true} responsive={responsive} customRightArrow={<CustomRightArrow />} centerMode={true} focusOnSelect={true} >
 
-      <div>
+      <div className="websites-inner-wrapper">
           <h5 className="carousel-item-title font-type" 
           data-aos="zoom-in"
           data-aos-delay="50"
