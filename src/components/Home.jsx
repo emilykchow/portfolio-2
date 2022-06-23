@@ -7,10 +7,10 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 
 function Home() {
   return (
-    <div className="Home-wrapper section1">
-      <div className="home-left">
+    <div className="Home-wrapper section1 container-fluid">
+      <div className="home-left row">
 
-      <div className="home-text font-type">
+      <div className="home-text font-type col-sm">
         <h1>
 
         Hello, I'm <span className="emily-chow"><strong>Emily Chow.</strong></span>
@@ -29,7 +29,7 @@ function Home() {
         
         />
         </h1>
-        <h4> Knack of building web applications with front and back end operations.
+        <h4 className="col-sm"> Knack of building web applications with front and back end operations.
         {/* A reliable and detailed-oriented individual looking to work as software engineer. Offering expertise in Javascript, HTML, CSS and core web design. Graduate from General Assembly. */}</h4>
         <button className="btn primary-btn">
           <Link

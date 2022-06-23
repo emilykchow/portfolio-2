@@ -82,14 +82,9 @@
 /* ------------------------------ About ------------------------------ */
 .About-wrapper {
   width: 100vw;
-  height: 30vh;
   align-items: center;
   text-align: center;
-  justify-content: space-evenly;
-  margin: auto;
-
-  display: flex;
-  margin-bottom: 50px;
+  margin: 5% 1%;
   flex-direction: column;
 }
 
@@ -371,10 +366,6 @@ form textarea {
     height: 300px;
     width: 300px;
     bottom: 80px;
-  }
-
-  .About-wrapper {
-    height: 110vh;
   }
 
   .About-wrapper h1 {
